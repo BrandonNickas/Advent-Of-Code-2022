@@ -37,9 +37,9 @@ def part2():
 
         for i in range(operationCycles):
             if cycle % 40 == spriteMiddlePixle or cycle % 40 == spriteMiddlePixle - 1 or cycle % 40 == spriteMiddlePixle + 1:
-                currentRow += '#'
+                currentRow += '█'
             else:
-                currentRow += '.'
+                currentRow += ' '
 
             cycle += 1
 
@@ -51,7 +51,7 @@ def part2():
             spriteMiddlePixle += (int(line.split()[1])) 
 
     while cycle != 241:
-        currentRow += '.'
+        currentRow += ' '
 
     print(currentRow, cycle)
 

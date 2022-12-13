@@ -6,7 +6,7 @@
             "request": "launch",
             "program": "${file}",
             "justMyCode": true,
-            "cwd": "${workspaceFolder}/Day10"
+            "cwd": "${workspaceFolder}/Day11"
         }
     ]
 }
